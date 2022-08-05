@@ -1,0 +1,72 @@
+.logo{
+   background-color: bisque;
+   
+   border-radius: 50%;
+   
+   width:2rem;
+   height: 2rem;
+   padding: 2.5rem;
+}
+
+.b{
+    
+  
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+   
+}
+
+
+.b a{
+float: right;
+color: azure;
+text-decoration: none;
+padding: 10px 10px;
+
+}
+
+
+a:visited{
+    
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+.left{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    width: 330px;
+    height: 200px;
+   
+   
+  
+
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
+    gap:80px;
+    justify-content: center;
+}
+
+.right{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    width: 330px;
+    height: 200px;
+   
+  
+}
+.p{
+  
+  margin-left: 24rem;
+   width:50%;
+}
