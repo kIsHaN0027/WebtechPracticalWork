@@ -1,8 +1,8 @@
 .logo{
    background-color: bisque;
-   
+   text-transform: capitalize;
    border-radius: 50%;
-   
+   border:2.5rem double grey;
    width:2rem;
    height: 2rem;
    padding: 2.5rem;
@@ -12,13 +12,17 @@
     
   
     background-color: rgb(0, 0, 0);
+   border-radius: 1rem;
     overflow: hidden;
-   
+  
 }
 
 
 .b a{
+   font-size: large;
+    text-transform: capitalize;
 float: right;
+  
 color: azure;
 text-decoration: none;
 padding: 10px 10px;
@@ -42,7 +46,7 @@ h1{
     align-items: flex-end;
     width: 330px;
     height: 200px;
-   
+   border: 2.5rem double grey;
    
   
 
@@ -62,11 +66,16 @@ h1{
     align-items: flex-end;
     width: 330px;
     height: 200px;
-   
+   border: 2.5rem double grey;
   
 }
 .p{
-  
-  margin-left: 24rem;
-   width:50%;
+  width:50%;
+   text-align:center;
+   margin-left:25%;
+}
+
+body{
+    background-image: url(),radial-gradient(#fff ,rgb(121, 121, 120))
+    
 }
