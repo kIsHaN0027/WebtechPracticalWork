@@ -66,16 +66,30 @@ li{
 }
 
 @media screen and (max-width:700px) {
+
+    .body{
+        padding: 2rem;
+    }
      .menu{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
      }
 
+     .log{
+        margin: auto;
+     }
 
+    li{
+        border: 2px solid whitesmoke;
+        border-radius:1rem ;
+        width: 100%;
+        text-align: center;
+    }
 
     .imgcontainer{
-
         display: flex;
         flex-direction: column;
         justify-content: center;
