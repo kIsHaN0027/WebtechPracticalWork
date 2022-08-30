@@ -122,18 +122,18 @@ header{
     
 }
 
-/* header{
+header{
     animation-name:backdrop;
     animation-duration: 10s;
     animation-iteration-count: infinite; 
-} */
+}
 
-/* @keyframes back{
+@keyframes back{
     0% {transform: rotate(45deg);}
     25%{transform: rotate(90deg);}
     50%{transform: rotate(180deg);}
     100% {transform: rotate(360deg);}
-} */
+}
 
 /* SCROLL DOWN */
 nav{
@@ -232,7 +232,7 @@ nav p{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin-left: 40px;
-    margin-top: -40px;
+    margin-top: -200px;
   }
 
 
@@ -384,15 +384,18 @@ nav p{
 
      .neww2{
         display: flex;
+        flex-flow: row wrap;
         gap: 160px;
        
      }
 
      .kav{
+       
         margin-left: 50px;
         margin-top: 40px;
         width: 580px;
         height: 700px;
+        
      }
      .og{
         margin-top: 180px;
@@ -406,9 +409,81 @@ nav p{
      }
 
      .city_1{
-       display: inline-block;
         text-align:end;
        transform: rotate(270deg);
-      margin-left:-20px;
-      margin-bottom:-50px;
+       margin-right: -650px;
+       margin-top: -130px;
+      font-size: x-large;
+      font-weight: bolder;
+       
      }
+     .city_2{
+       
+       /* display: inline-block; */
+        text-align:end;
+       transform: rotate(270deg);
+       margin-right: -370px;
+       margin-top: -160px;
+      font-size: x-large;
+      font-weight: bolder;
+       
+     }
+     .city_3{
+       
+       /* display: inline-block; */
+        text-align:end;
+       transform: rotate(270deg);
+       margin-right: -475px;
+       margin-top: -210px;
+      font-size: x-large;
+      font-weight: bolder;
+       
+     }
+
+     .cap_1{
+        margin-left:50px;
+     }
+
+     .dark{
+        font-size: xx-large;
+        font-weight: bolder;
+     }
+
+     .light{
+        font-size: xx-large;
+     }
+
+     /* NEXT SECTION */
+
+     .neww3{
+        display: flex;
+        background: black;
+        width: 100%;
+       height: 800px;
+     }
+
+    .he{
+        color: aliceblue;
+        font-size: 4rem;
+        font-weight: bolder;
+       margin-top:150px;
+       margin-left: 50px;
+    }
+
+    .email{
+         background-color: black;
+        color: rgb(255, 255, 255);
+        font-size:4rem;
+        margin-top:480px;
+        margin-left: -2px;
+        border:none;
+        border-bottom:0.2px solid whitesmoke;
+    }
+
+    .send{
+        background: black;
+        color: aliceblue;
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-left: -82px;
+    }
