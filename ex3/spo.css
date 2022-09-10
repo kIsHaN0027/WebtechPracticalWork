@@ -122,7 +122,7 @@ header{
     
 }
 
-header{
+/* header{
     animation-name:backdrop;
     animation-duration: 10s;
     animation-iteration-count: infinite; 
@@ -133,7 +133,7 @@ header{
     25%{transform: rotate(90deg);}
     50%{transform: rotate(180deg);}
     100% {transform: rotate(360deg);}
-}
+} */
 
 /* SCROLL DOWN */
 nav{
@@ -453,6 +453,9 @@ nav p{
         font-size: xx-large;
      }
 
+    
+
+     
      /* NEXT SECTION */
 
      .neww3{
@@ -473,11 +476,13 @@ nav p{
     .email{
          background-color: black;
         color: rgb(255, 255, 255);
-        font-size:4rem;
+        font-size:2rem;
         margin-top:480px;
         margin-left: -2px;
         border:none;
         border-bottom:0.2px solid whitesmoke;
+        width: 800px;
+        
     }
 
     .send{
@@ -485,5 +490,8 @@ nav p{
         color: aliceblue;
         font-size: xx-large;
         font-weight: bolder;
-        margin-left: -82px;
+        margin-left: -90px;
+       
     }
+
+    
