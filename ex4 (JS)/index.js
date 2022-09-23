@@ -41,5 +41,6 @@ function f(){
     for(let i= 1 ; i<=num; i++){
         fa*=i;
     }
-    document.getElementById("btn").innerHTML="the factorial of the number "+num+" is "+fa;
+
+ document.getElementById("btn").innerHTML="the factorial of the number "+num+" is "+fa;
 }
